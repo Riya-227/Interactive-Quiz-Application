@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">QuizMaster</h1>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <!-- Start Screen -->
+    <div id="start-screen">
+      <h2>Welcome to the Quiz Master!</h2>
+      <p>Test your knowledge on HTML, CSS, and JavaScript.</p>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Box -->
+    <div id="quiz-box">
+      <div class="quiz-header">
+        <h2 id="question">Loading question...</h2>
+        <ul id="options"></ul>
+      </div>
+
+      <div class="quiz-footer">
+        <div class="progress">
+          <div id="progress-bar"></div>
+        </div>
+        <p id="question-count"></p>
+        <p id="timer">Time left: 30s</p>
+        <div class="btn-group">
+          <button id="prev">Previous</button>
+          <button id="next">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Result Box -->
+    <div id="result-box" class="hidden">
+      <h2>Quiz Completed!</h2>
+      <p id="score"></p>
+      <button onclick="location.reload()">Restart Test</button>
+    </div>
+
+    <!-- Comments -->
+    <div class="comments-section">
+      <h3>Leave a Comment</h3>
+      <textarea id="comment-input" placeholder="Write your comment..."></textarea>
+      <button onclick="addComment()">Post</button>
+      <div id="comment-list"></div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

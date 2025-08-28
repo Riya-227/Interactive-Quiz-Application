@@ -30,5 +30,6 @@ Overall, this task helped me to combine design and logic in one project. It was 
 
 OUTPUT : 
 
-
-
+<img width="1280" height="832" alt="Image" src="https://github.com/user-attachments/assets/810f688e-6c61-422e-9487-1d85feafe498" />
+<img width="1280" height="832" alt="Image" src="https://github.com/user-attachments/assets/607bd66f-857b-4ad4-b028-ad450254f352" />
+<img width="1280" height="832" alt="Image" src="https://github.com/user-attachments/assets/9a7feedd-95af-43e1-9086-f9a55231bdd9" />
